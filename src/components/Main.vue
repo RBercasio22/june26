@@ -73,7 +73,7 @@ export default {
 
 @media (max-width: 500px) {
   .p-testing,
-  .main-content {
+  .main-content-1 {
     display: flex;
     flex-direction: column;
   }
