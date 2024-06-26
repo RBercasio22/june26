@@ -93,7 +93,7 @@ export default {
   justify-content: flex-start;
   align-items: center;
   flex-direction: row;
-  border: 4px solid green;
+  /*border: 4px solid green;*/
   margin-right: 10px;
 
 }
@@ -117,7 +117,7 @@ export default {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  border: 4px solid green;
+  /*border: 4px solid green;*/
   flex: 1;
 
 }
@@ -129,7 +129,7 @@ export default {
   justify-content: flex-end;
   align-items: center;
   flex-direction: row;
-  border: 4px solid green;
+  /*border: 4px solid green;*/
   margin-left: 10px;
 
 }
