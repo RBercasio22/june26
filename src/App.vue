@@ -104,7 +104,9 @@ export default {
   bottom: 50%;
   left: 0;
   transform: translateY(50%);
-  background-color: white;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
 
 }
 
