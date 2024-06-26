@@ -2,9 +2,10 @@
     <div class="main-content-1">
       <div class="left-side-icon">
 
-          <p>Facebook</p>
-          <p>Linkedin</p>
-          <p>Github</p>
+          
+          <button class="button-icon">Facebook</button>
+          <button class="button-icon">likedin</button>
+          <button class="button-icon">github</button>
 
       </div>
         <p class="p-testing">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci aliquid hic, quia dolorum quasi enim sequi cupiditate molestias magnam cum quisquam deserunt minus illum aperiam ut autem consequatur harum rem praesentium vero. Illum ipsum animi, ipsa, deleniti dignissimos esse tempora placeat culpa dolorem veritatis iusto eum dicta atque, perferendis accusantium odio? Illum nemo nostrum corporis accusantium totam ad a et officia, iure, saepe facere non cumque similique itaque aliquid, eius nesciunt placeat vero. Omnis voluptatibus eius inventore ex cum exercitationem hic saepe blanditiis corporis maiores, repellat, ipsa corrupti officia sint incidunt possimus! Iusto aperiam modi dolorum, cupiditate beatae dolore in!</p>
@@ -38,6 +39,20 @@ export default {
 
 
 <style scoped>
+.button-icon {
+  transition: 1.2s;
+  letter-spacing: 3px;
+  background-color: rgb(200,0,0);
+  color: white;
+  border: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 20px 10px;
+  margin-top: 6px;
+  text-transform: uppercase;
+  width: 150px;
+
+}
 
 
 .p-testing {
@@ -78,6 +93,13 @@ export default {
     display: flex;
     flex-direction: column;
   }
+    .button-icon,
+      .button-icon:hover {
+        width: 100px;
+        font-size: 10px;
+        margin-top: 0;
+        background-color: black;
+      }
   
 }
 
