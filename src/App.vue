@@ -100,7 +100,7 @@ export default {
 
 .left-side-icon{
   position: fixed;
-  top: 30%;
+  top: 10%;
   bottom: 50%;
   left: 0;
   transform: translateY(50%);
