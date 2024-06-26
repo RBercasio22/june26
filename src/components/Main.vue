@@ -53,6 +53,11 @@ export default {
   width: 150px;
 
 }
+.button-icon:hover {
+  background-color: rgb(150,0,0);
+  color: gray;
+  font-weight: bold;
+}
 
 
 .p-testing {
