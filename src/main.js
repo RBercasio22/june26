@@ -34,5 +34,40 @@ function addTodo() {
 }
 
 </script>
+<style>
+
+input {
+  padding: 10px 10px;
+  margin-right: 2px;
+  border-radius: 5px;
+  outline: none;
+}
+button {
+  background-color: green;
+  color: white;
+  padding: 10px 40px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  transition: 1.2s;
+  cursor: pointer;
+  border: 1px solid green;
+}
+
+button:hover {
+  background-color: transparent;
+  color: green;
+ 
+}
+
+ul,li {
+  list-style: none;
+  color: black;
+  font-weight: 700;
+}
+
+</style>
+
+
 
 */
